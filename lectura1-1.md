@@ -6,4 +6,4 @@ El paper comienza introduciendo el tema de los sistemas recomendadores y el desa
 
 ## Crítica
 
-Cuando se introduce al problema de escalabilidad se dice que los problemas se producen cuando tenemos una gran cantidad de datos: millones de usuarios o items, sin embargo, el conjunto de datos que se trabaja no coincide con esta descripción. 
+Cuando se introduce al problema de escalabilidad se dice que los problemas se producen cuando tenemos una gran cantidad de datos: millones de usuarios o items, sin embargo, el conjunto de datos que se trabaja no coincide con esta descripción. Me parece que es necesario escoger una base de datos más grande y comparar los dos tipos de enfoque (*item-ased*  vs *user-based*) cosa que no fue lo que se hizo.  
