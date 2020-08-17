@@ -5,4 +5,4 @@ La publicación trata acerca de un algoritmo recomendador basado en descomposici
 
 ## Comentarios
 
-Me parece genial que el autor haya hecho este post, muestra que es posible resolver problemas complejos con tan sólo un computador desde casa. Creo que la solución presentada, debido a su naturaleza intrínseca como algoritmo de aprendizaje, es altamente sofisticada matemáticamente pues está basada en tópicos de optimización convexa.  
+Me parece genial que el autor haya hecho este post porque muestra que es posible resolver problemas complejos con tan sólo un computador desde la casa. Creo que la solución presentada, debido a su naturaleza intrínseca como algoritmo de aprendizaje, es altamente sofisticada matemáticamente pues está basada en tópicos de optimización convexa.  
