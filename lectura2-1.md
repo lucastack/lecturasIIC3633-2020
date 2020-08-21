@@ -17,6 +17,7 @@ Con respecto a la cantidad de factores latentes escogidos, los investigadores de
 
 Me parece muy bien que hayan hecho comparaciones con otros algoritmos de recomendación, de esta manera se justifica utilizar el modelo propuesto. Pero, conectándolo con el párrafo anterior, ¿qué ocurre si los otros modelos resultan ser mucho más rápidos? ¿es razonable utilizar más recursos por un poco más de rendimiento?, y si es así ¿cuanto es el *trade-off*?
 
+Finalmente, me parece muy sensata la observación de cierre de la sección de discusión, que menciona que el objetivo último de un sistema recomendador como el propuesto debiera ser lograr que los usuarios descubran nuevos shows que les gusten, más allá de sólo recomendar shows puesto que si sabemos que a un usuario le gusta un cierto show ¿que ganamos con recomendárselo?.
 
 
 
