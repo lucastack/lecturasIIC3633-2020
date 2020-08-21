@@ -8,3 +8,4 @@ El paper presenta un sistema de recomendación basado en feedback implícito. Pr
 En cuanto al modelo matemático propuesto, me pareció genial la idea de considerar los tiempos de visualización de un show como parámetros de preferencia y confianza, aún más, los investigadores comparan este modelamiento con no haberlos introducido, probando que su decisión es correcta. Una cosa que no se explica, y que creo que es importante, es el motivo de elección de la métrica euclideana como término de regularización, y es que ésta no es la única forma de regularizar un problema de optimización.
 
 Debido a que en este caso no existen los *missing values*, pues si un show no se ha visto simplemente se deja su tiempo en 0, el hecho de que la complejidad (en tiempo) del algoritmo sea lineal en la cantidad de datos es fundamental, ya que en otro caso el método no escalaría muy bien para casos más con bases de datos más grandes.
+
