@@ -5,4 +5,4 @@ El paper presenta un sistema de recomendación basado en feedback implícito. Pr
 
 ## Comentarios
 
-En cuanto al modelo matemático propuesto, me pareció genial la idea de considerar 
+En cuanto al modelo matemático propuesto, me pareció genial la idea de considerar los tiempos de visualización de un show como parámetros de preferencia y confianza, aún más, los investigadores comparan este modelamiento con no haberlos introducido, probando que su decisión es correcta.  
