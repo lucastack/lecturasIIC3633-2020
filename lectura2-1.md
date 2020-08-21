@@ -11,5 +11,12 @@ Debido a que en este caso no existen los *missing values*, pues si un show no se
 
 Otro punto que considero destacable es que el modelo permite explicar de manera natural el motivo por el que se realizan las recomendaciones a los usuarios tal como en el recomendador item-KNN. Sin embargo, debido al álgebra empleada en este algoritmo, la similaridad entre items **no** es independiente del usuario, lo cual creo que tiene mucho sentido; es razonable que cada usuario decida que tan similares son dos items.
 
+En la parte del experimento, con el set de test, me queda la duda de si es válido considerar que una persona que vio menos de la mitad de un show simplemente no lo vió. Pienso que existen muchos supuestos bastante razonables a lo largo del paper, sin embargo, este no es uno de ellos porque es posible que el usuario simplemente no haya podido continuar viendo el show. Además, los investigadores no agregan los resultados de sí considerar estos datos como "válidos".   
+
+Con respecto a la cantidad de factores latentes escogidos, los investigadores declaran que en base a lo observado entre más factores el modelo predice mejor y que se debieran usar tantos como el poder computacional permita, sin embargo, no queda claro que tan "costoso" en términos de recursos es probar con 200 factores. Probablemente haya hecho falta algún gráfico acerca del tiempo necesario para hacer los cómputos, además de una descripción del equipo utilizado.  
+
+Me parece muy bien que hayan hecho comparaciones con otros algoritmos de recomendación, de esta manera se justifica utilizar el modelo propuesto. Pero, conectándolo con el párrafo anterior, ¿qué ocurre si los otros modelos resultan ser mucho más rápidos? ¿es razonable utilizar más recursos por un poco más de rendimiento?, y si es así ¿cuanto es el *trade-off*?
+
+
 
 
