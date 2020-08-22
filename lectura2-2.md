@@ -5,4 +5,4 @@ Este paper presenta un nuevo enfoque para generar modelos de sistemas recomendad
 
 ## Comentario
 
-El origen de este enfoque es considerar que lo que se busca es **ordenar** los items de acuerdo a su preferencia para un cierto usuario. Por este motivo, a diferencia de los otros modelos que hemos visto, se trabaja con pares de items $(i,j)$
+El origen de este enfoque es considerar que lo que se busca es **ordenar** los items de acuerdo a su preferencia para un cierto usuario. Por este motivo, a diferencia de los otros modelos que hemos visto, se trabaja con pares de items '$ (i,j) $'
