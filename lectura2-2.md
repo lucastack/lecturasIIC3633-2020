@@ -3,6 +3,6 @@
 ## Resumen
 Este paper presenta un nuevo enfoque para generar modelos de sistemas recomendadores con feedback implícito. Provee de un modelo de optimización (una función a optimizar) que denominan BPR-Opt, el cual es básicamente maximizar el valor de un operador relacionado con la probabilidad a posteriori, además de un método de aprendizaje para hallar tal óptimo: LearnBPR, que consiste en usar algoritmo de gradiente estocástico con bootstraping sin reemplazo. Se utiliza este enfoque con los modelos kNN y factorización matricial y se encuentran resultados muy superiores a las estrategias de aprendizaje "tradicionales" (o no bayesianos).
 
-## Comentario
+## Comentarios
 
 El origen de este enfoque es considerar que lo que se busca es **ordenar** los items de acuerdo a su preferencia para un cierto usuario. Por este motivo, a diferencia de los otros modelos que hemos visto, se trabaja con pares de items (i,j) e intenamos generar un orden < para cada usuario u, tal que i < j significa que j tiene mayor preferencia que i para el usuario en cuestión. Me parece muy elegante esta nueva formulación, como también fascinante el hecho de que mirar un problema desde otra perspectiva podamos encontrar nuevas (y mejores) soluciones. 
