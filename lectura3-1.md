@@ -14,7 +14,9 @@ En cuanto a los resultados, creo que la interpretación que dan los investigador
 
 Me impresionó que PureSVD sea el mejor modelo al considerar las listas Top-N, sin embargo, creo que también es necesario mostrar los errores en promedio como se hace típicamente pues esto da una idea de que tan distinto es considerar estos dos enfoques. Al no mostrar esa diferencia da la impresión de que sólo importa el enfoque que los investigadores proponen y no una real comparación para ver los contrastes.
 
-Otra cosa que me parece excelente es que en la conclusión los investigadores discuten cómo se podría mejorar el PureSVD, por ejemplo, considerando llenar la matriz con valores distintos de 0. Una cosa que no se menciona es qué pasaría con PureSVD para recomendar a un usuario nuevo puesto que asignaría todos sus ratings como 0, creo razonable que se le asignen los items más populares pero no me queda claro si funcionaría así. 
+Otra cosa que me parece excelente es que en la conclusión los investigadores discuten cómo se podría mejorar el PureSVD, por ejemplo, considerando llenar la matriz con valores distintos de 0. Una cosa que no se menciona es qué pasaría con PureSVD para recomendar a un usuario nuevo puesto que asignaría todos sus ratings como 0, creo razonable que se le asignen los items más populares pero no me queda claro si funcionaría así.
+
+Para finalizar me parece un buen paper, muy ordenado, que deja muy clara la importancia de cómo se miden los rendimientos y los sesgos o errores a los que esto nos puede llevar. Creo que la solución debería ser balanceada, un punto medio: intentar obtener errores medios razonablemente pequeños y buenas listas de recomendación en general.  
 
 
 
