@@ -6,7 +6,7 @@ Este paper trata principalmente acerca de la manera en que se evalúan los siste
 
 Previo a realizar las comparaciones se realiza una importante apreciación acerca del proceso de evaluación: la manera en que se construye el *testing set*. Cuando se intenta testear con películas populares con rating promedio muy bueno (5), es muy probable que el valor a predecir sea también 5 pues así se minimiza el error. Sin embargo, ¿qué se gana haciendo algo así si es que **ya sabemos** que una película es muy buena? Por este motivo considero muy acertado que se haya construido un set de testeo específico a fin de evaluar la precisión de la lista Top-N recomendada.
 
-
+En la sección **2.1** se hace un comentario que me dejó muy asombrado, y es que en el caso de Netflix sólo 1.7% de las películas (más populares) acumulan más de un tercio de los ratings totales realizados por los usuarios. Esto significa que esas películas tienen demasiada influencia sobre las métricas RMSE y MAE. Dicho esto, y conectándolo con el párrafo anterior, lo que nos gustaría es recomendar películas no tan populares pues de otra manera nuestra recomendación no tiene valor para el usuario (simplemente bastaría usar *most popular*). Por este motivo considero muy buena idea haber separado el set de Test en dos partes (Long y Short Tail). 
 
 
 
