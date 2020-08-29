@@ -8,8 +8,7 @@ Previo a realizar las comparaciones se realiza una importante apreciación acerc
 
 En la sección **2.1** se hace un comentario que me dejó muy asombrado, y es que en el caso de Netflix sólo 1.7% de las películas (más populares) acumulan más de un tercio de los ratings totales realizados por los usuarios. Esto significa que esas películas tienen demasiada influencia sobre las métricas RMSE y MAE. Dicho esto, y conectándolo con el párrafo anterior, lo que nos gustaría es recomendar películas no tan populares pues de otra manera nuestra recomendación no tiene valor para el usuario (simplemente bastaría usar *most popular*). Por este motivo considero muy buena idea haber separado el set de Test en dos partes (Long y Short Tail). 
 
-
-
+En la sección de los experimentos se realizan comparaciones de distintos modelos según su capacidad de predecir si cierta película de rating 5 está dentro de la lista recomendada. Ahí se introduce un modelo de estilo factorización matricial que denominan PureSVD que es básicamente hallar la factorización en valores singulares de la matriz usuarios-items. Me parece que este modelo es muy adecuado para lo que quieren mostrar los investigadores pues precisamente no es un modelo derivado de minimizar algún tipo de error.
 
 
 
