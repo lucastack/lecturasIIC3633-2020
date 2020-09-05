@@ -10,7 +10,14 @@ Cada uno de los puntos anteriores tiene ventajas sobre la factorización SVD. Co
 
 En cuanto a la derivación matemática del modelo, la única parte que me parece que debiera ser explicada mejor es por qué la matriz a factorizar (X) se debe escribir con un factor logarítmico (vea sección 3.1). Comprendo que la definición dada X queda como una matriz con entradas no nulas, sin embargo, existen muchas formas de hacer esto. Es probable que esta forma de definir la matriz de términos-documentos sea bastante estándar en la literatura, pero creo que es importante explicar por qué tiene esta forma y no otra ¿Existen otras? ¿Cómo cambian los resultados?
 
-En cuanto a los resultados y los experimentos creo que es una muy buena práctica el trabajo de filtrado que hicieron con el dataset a trabajar. Esto es debido a que no tiene mucho sentido intentar clusterizar outliers o hacer clusters demasiado pequeños en relación a la muestra. No haber hecho esta limpieza posiblemente habría ensuciado los resultados obtenidos por los modelos.
+En la sección de experimentos y evaluación creo que es una muy buena práctica el trabajo de filtrado que hicieron con el dataset a trabajar. Esto es debido a que no tiene mucho sentido intentar clusterizar outliers o hacer clusters demasiado pequeños en relación a la muestra. No haber hecho esta limpieza posiblemente habría ensuciado los resultados obtenidos por los modelos.
+
+Llegando al final del paper, en la sección de resultados, se evidencia que el modelo presentado tiene valores del mismo orden o muy similares a los otros modelos en comparación, sin embargo, como se mencionó al principio, la aparente ganancia que se tiene es que la clusterización es mucho más sencilla y no necesita de otro algoritmo adicional. Me parece que en esta parte hizo falta una comparación de qué tanto se gana en término de cómputo, ¿Qué tan costoso es correr un algoritmo k-Means después de alguno de los otros modelos ya existentes? ¿Es verdaderamente más eficiente el modelo propuesto? Creo que una tabla de tiempos de ejecución o de uso de memoria hubiese sido ideal para despejar esta duda.
+
+Finalmente, me gustaría comentar la potencial relación que tiene este paper con los sistemas recomendadores: dado un usuario que sabemos que le gusta un cierto tipo de documento, digamos de clase A, podemos procesar los documentos con el algoritmo presentado para encontrar otros documentos que también estén en la misma clase A y eventualmente recomendárselos al usuario! La diferencia con lo que hemos visto hasta ahora es que ya no necesitamos la información que nos den otros usuarios para saber que ciertos documentos son o no similares, si no que como dice el nombre, sería una recomendación basada completamente en el **contenido** del documento.
+
+
+
 
 
 
