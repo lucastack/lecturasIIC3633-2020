@@ -4,4 +4,6 @@ El paper comienza describiendo un problema nuevo hasta ahora en el curso: cómo 
 
 En la sección 2 los autores describen algunos de los métodos utilizados para llevar a cabo esta tarea, dentro de los cuales destacan la descomposición matricial SVD, que según mencionan es de las más utilizadas. En ese punto se da a conocer el problema que conlleva usar esta técnica: transformar el espacio usando SVD no deja los documentos clusterizados, si no que debe acompañarse de otro proceso de clusterización como K-Means, es decir, aún es necesario más trabajo. Este punto es importante porque justifica y motiva la creación de un nuevo modelo que logre la clusterización directamente, osea, con menos esfuerzo de cómputo.
 
-En vista de esto, los investigadores presentan un modelo basado en optimización
+En vista de esto, los investigadores presentan NMF, un modelo basado en optimización y factorización de la matriz de términos de los documentos a clusterizar. Se destacan dos diferencias claves en utilizar este modelo en lugar de SVD: primero, que los vectores columna de la factorización no necesariamente son ortogonales, si no que están directamente relacionadas con los clusters en el sentido de que para hallar la etiqueta de un documento basta con hallar la columna con la que tenga mayor proyección, y segundo, que los documentos tienen únicamente "componentes positivas" sobre las direcciones del espacio generado por NMF. 
+
+
