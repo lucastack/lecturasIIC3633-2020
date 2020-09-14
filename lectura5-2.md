@@ -4,4 +4,6 @@ Este paper trata acerca de cómo se pueden combinar los distintos modelos *state
 
 Una de los puntos más importantes a mi parecer, es que como el tamaño del probe set de entrenamiento es muy grande, es demasiado costoso realizar el entrenamiento de algunos modelos sobre todo el conjunto, por lo que se hace necesario entrenar sobre fracciones de este. Esto permite que cada modelo vaya observando muestras distintas del conjunto de entrenamiento, adaptándose a ellas, lo cual es consistente con el enfoque que se quiere dar: obtener distintos modelos y ponderarlos. Esto da mayor variabilidad a los modelos (a pesar de que se ocupen dos iguales, se entrenan sobre conjuntos distintos), lo que posiblemente hace que se reduzca el overfitting del ensamble final.  
 
+Me sorprendió que a pesar de utilizar muestras relativamente pequeñas con respecto al total de datos, las redes neuronales tomaran tanto tiempo en entrenar considerando que su tamaño (cantidad de neuronas y capas) no es tan grande. Sin embargo, sus tamaños reducidos prueban su poder al ser capaces de hacer millones de recomendaciones en muy poco tiempo. Algo que podría agregarse es una tabla comparando los distintos RMSE de estas redes cambiando los parámetros pues se menciona que los valores presentados funcionan mejor, pero no hay una tabla comparativa que lo muestre.
+
 
