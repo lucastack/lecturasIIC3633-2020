@@ -1,2 +1,3 @@
 # Lectura: Combining predictions for accurate recommender systems. Jahrer, M., Töscher, A. and Legenstein, R. (2010).
 
+Este paper trata acerca de cómo se pueden combinar los distintos modelos *state-of-the-art* (para la época) para hacer mejores recomendaciones que utilizándolos de manera individual. La idea principal es entrenar varios de estos modelos pequeños para posteriormente ensamblarlos, lo que se hace mediante una combinación lineal de los output de cada uno de ellos. Se observa, con el dataset de Netflix Prize, que con este esquema se obtienenen mejores recomendaciones que con los modelos individuales según el RMSE. 
