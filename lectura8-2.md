@@ -8,3 +8,5 @@ Un problema que tiene el uso de la interfaz es que presupone que las personas qu
 
 Otro punto que aparece a raíz de lo anterior es si realmente poner a disposición un controlador del sistema recomendador mejora la experiencia del usuario, ya que si este no lo entiende le parecerá engorroso y ocurrirá todo lo contrario: preferirá otro sitio web (si corresponde el caso) más simple. Aquí es donde aparece la pregunta ¿Es realmente útil un controlador como *SetFusion* en un contexto más cotidiano, como por ejemplo, en una página de e-commerce? 
 
+En cuanto a la evaluación de la interfaz, me parece que muy apropiado que se le pregunte directamente (por mail en realidad) a los usuarios acerca de su experiencia con *SetFusion*, de esta manera, tal como se muestra en el otro paper de esta semana, se puede realizar una evaluación centrada en el usuario, más alla del rendimiento de los algoritmos.
+
