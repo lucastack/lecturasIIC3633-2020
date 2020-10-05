@@ -10,3 +10,4 @@ Otro punto que aparece a raíz de lo anterior es si realmente poner a disposici�
 
 En cuanto a la evaluación de la interfaz, me parece que muy apropiado que se le pregunte directamente (por mail en realidad) a los usuarios acerca de su experiencia con *SetFusion*, de esta manera, tal como se muestra en el otro paper de esta semana, se puede realizar una evaluación centrada en el usuario, más alla del rendimiento de los algoritmos.
 
+En general, es un paper muy interesante cuya propuesta es novedosa, creativa, y además, obtuvo buenos resultados en el contexto donde fue utilizada. Tal como mencionan en la última sección, sería muy bueno que se intentase utilizar *SetFusion* en otros contextos más "populares", y en ese caso, se podría considerar reemplazar la visualización de diagramas de Venn por alguna otra menos técnica con el fin de que la interfaz sea más simple.
