@@ -12,6 +12,6 @@ En cuanto a los resultados, es interesante que los usuarios que ingresan a la et
 
 Lamentablemente, el experimento no logra obtener suficiente evidencia estadística de que el *friend control* genera mejores resultados en la experiencia del usuario que *item control*, sin embargo, concluye correctamente que el uso de la interfaz presentada mejora la experiencia de usuario. Sería interesante estudiar cómo se darían estos comportamientos y resultados de acuerdo a la proximidad de los usuarios y sus amigos, ya que en múltiples ocasiones sólo son amigos a través de facebook y el cuestionario al parecer no menciona nada acerca de esto.
 
-Para concluir, me gustaría destacar el tratamiento estadístico de los experimentos y los resultados de las encuestas, denota que existió cuidado con realizar los estudios de los distintos aspectos de manera independiente y de obtener conclusiones lo más formalmente (estadísticamente) posible. 
+Para concluir, me gustaría destacar el tratamiento estadístico de los experimentos y los resultados de las encuestas, denota que existió cuidado con realizar los estudios de los distintos aspectos de manera independiente y de obtener conclusiones lo más formalmente (estadísticamente hablando) posible. 
 
 
