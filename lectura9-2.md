@@ -8,7 +8,7 @@ Un aspecto que destaco del paper es que también toma en cuenta la manera en có
 
 En la sección de resultados, me impresionó mucho que con sólo 100 clusters se podían obtener resultados del mismo orden que con métodos completamente personalizados, sin embargo, creo necesario presentar los tiempos que toma hacer las recomendaciones o iteraciones de los *badits* respectivos pues de otra manera no se visualiza la ganancia que genera la propuesta en términos de recursos computacionales. En este mismo aspecto, sería interesante discutir que tan buena es la clusterización ya que en el paper no está detallado ese proceso, y como bien sabemos, no existe una única manera de hacerlo. Esto abre la posibilidad de estudiar como afecta la representación de los usuarios en los distintos *bandits* contextuales.
 
-
+En general, me parece un paper novedoso pues la idea de recomendar a un cluster es técnicamente hacer una recomendación a un grupo de personas, lo que tiene al menos dos beneficios: primero, es computacionalmente más eficiente, y segundo, genera perfiles de usuario lo cual puede ser utilizado como input para otro tipo de aplicaciones. A pesar de esto, creo que faltaron más tablas de resultados, sobretodo en la parte que pretenden estudiar los investigadores: cómo cambia el desempeño de los *bandits* al utilizar la clusterización.     
 
 
 
