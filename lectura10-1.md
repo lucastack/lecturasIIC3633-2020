@@ -1,2 +1,3 @@
 # Lectura: Deep learning based recommender system: A survey and new perspectives. Zhang, S., Yao, L., Sun, A., & Tay, Y. (2019). (Hasta sección 3.4)
 
+A raíz del creciente interés, investigación y utilización de Deep Learning en sistemas recomendadores, los investigadores hacen una revisión de la literatura disponible en el tema con el objetivo de hacer un sumario o resumen que ordene las distintas técnicas y métodos, además de presentar los problemas (abiertos) que se han encontrado con respecto a estos algoritmos. El paper presentado corresponde al estudio que hicieron los investigadores acerca de lo anterior.   
